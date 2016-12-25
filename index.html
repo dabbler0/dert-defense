@@ -4,7 +4,9 @@
       body, html {
         margin: 0;
         padding: 0;
-        -webkit-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        font-family: sans-serif;
       }
       #main {
         border: 1px solid #000;
@@ -15,8 +17,10 @@
         margin-left: -300px;
       }
   </style>
+  <title>Dert Defense</title>
   </head>
   <body>
+    <center><h1>Dert Defense</h1></title>
     <div id="hidden" style="position:absolute;top:-9999px;left:-9999px;"></div>
     <canvas id="main" width="600" height="400"></canvas>
     <script src="index.js"></script>
